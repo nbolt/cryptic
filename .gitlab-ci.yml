@@ -5,3 +5,4 @@ deploy:
   - git push https://$GITHUB_TOKEN@github.com/nbolt/cryptic.git $CI_BUILD_REF:$CI_BUILD_REF_NAME
   only:
   - master
+  - develop
